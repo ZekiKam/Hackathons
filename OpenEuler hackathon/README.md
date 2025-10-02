@@ -2,7 +2,7 @@
 Currently, you must execute frontend and backend spearately as I have failed to use Docker or `launcher.py` to bundle them :(
 
 1. Run backend, then front end (you'll need one terminal for each, so open two terminal windows)
-2. When both frontend and backend are running, open [http://localhost:5173/](url) to view UI
+2. When both frontend and backend are running, open [http://localhost:5173/](http://localhost:5173/) to view UI
 3. To stop running, CTRL + C in both running terminals
 
 ## Backend
