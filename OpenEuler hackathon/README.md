@@ -10,7 +10,7 @@ Currently, you must execute frontend and backend spearately as I have failed to 
 2. `cd backend`
 3. `python3 metrics.py`
 
-Backend runs in localhost:5137
+Backend runs in localhost:5173
 
 When it runs, metrics.csv and metrics.jsonl will appear in Explorer, they will update in real-time.
 `rm metric.csv metric.jsonl` to start from row one again the next time running it
