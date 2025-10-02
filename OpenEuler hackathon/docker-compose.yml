@@ -1,0 +1,33 @@
+
+
+services:
+  metrics:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: metrics-service
+    restart: unless-stopped
+    environment:
+      - CSV_PATH=/data/metrics.csv
+      - JSONL_PATH=/data/metrics.jsonl
+      - SAMPLE_INTERVAL=0.1
+    volumes:
+      - metrics-data:/data
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        - VITE_API_BASE=http://localhost:8000
+    container_name: metrics-frontend
+    restart: unless-stopped
+    ports:
+      - "5173:5173"
+    depends_on:
+      - metrics
+
+volumes:
+  metrics-data:
