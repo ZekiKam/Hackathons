@@ -10,6 +10,8 @@ Currently, you must execute frontend and backend spearately as I have failed to 
 2. `cd backend`
 3. `python3 metrics.py`
 
+Backend runs in localhost:5137
+
 When it runs, metrics.csv and metrics.jsonl will appear in Explorer, they will update in real-time.
 `rm metric.csv metric.jsonl` to start from row one again the next time running it
 
@@ -17,5 +19,7 @@ When it runs, metrics.csv and metrics.jsonl will appear in Explorer, they will u
 1. Might need to install node.js and vite
 1. `cd frontend`
 2. `npm run dev`
+
+Frintend runs in localhost:8000
 
 
