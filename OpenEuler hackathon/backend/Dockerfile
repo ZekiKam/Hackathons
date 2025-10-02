@@ -1,3 +1,5 @@
+# Didn't manage to use docker; run front and back-end separately!
+
 FROM python:3.12-slim
 
 WORKDIR /app
