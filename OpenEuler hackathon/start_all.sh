@@ -1,3 +1,5 @@
+# Forgot what this is for... (prolly sth related to docker)
+
 #!/bin/bash
 
 # Start backend in background
