@@ -1,3 +1,19 @@
+"""
+Came up with this idea 7 min before times up to replace using Docker
+Worked at first, but then we decided to change the folder name from 'docker_bundle' to 'build'
+And another folder - ai (Tier 2), was added to repo, which prolly messed things up because we have no time to integrate it with the rest of the program
+
+=== OpenEuler System Monitor Launcher ===
+1. Start Backend (metrics.py)
+2. Start Frontend (npm run preview)
+3. Stop Backend
+4. Stop Frontend
+5. Exit
+Select option: 
+
+"""
+
+
 import os
 
 def main():

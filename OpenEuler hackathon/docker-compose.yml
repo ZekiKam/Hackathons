@@ -1,4 +1,4 @@
-
+#INCOMPLETE - currently not using docker container; must run front and backend individually
 
 services:
   metrics:
