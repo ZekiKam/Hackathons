@@ -1,0 +1,18 @@
+{
+    "learning_rate": 0.005117556608871568,
+    "reward_decay": 0.9800628441515685,
+    "e_greedy_min": 0.019594943184082315,
+    "e_greedy_max": 0.2506171706194015,
+    "e_greedy_init": 0.19599916864157652,
+    "e_greedy_increment": 0.0010723911521836422,
+    "e_greedy_decrement": 0.0029883326246924347,
+    "reward_threshold": 2.5074931395566407,
+    "history_size": 83,
+    "dynamic_e_greedy_iter": 21,
+    "explore_mentor": "LFU",
+    "replace_target_iter": 261,
+    "memory_size": 12000,
+    "batch_size": 256,
+    "best_miss_rate": 0.14370210680147097,
+    "trial_number": 32
+}

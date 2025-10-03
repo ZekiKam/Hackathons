@@ -1,0 +1,22 @@
+[
+  {
+    "algorithm": "DQN",
+    "miss_rate": 18.18
+  },
+  {
+    "algorithm": "Random",
+    "miss_rate": 19.41
+  },
+  {
+    "algorithm": "LRU",
+    "miss_rate": 19.95
+  },
+  {
+    "algorithm": "LFU",
+    "miss_rate": 18.34
+  },
+  {
+    "algorithm": "MRU",
+    "miss_rate": 46.47
+  }
+]
